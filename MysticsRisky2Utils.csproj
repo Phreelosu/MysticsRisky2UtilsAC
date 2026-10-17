@@ -1,0 +1,52 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+
+    <MSBuildWarningsAsMessages>
+      $(MSBuildWarningsAsMessages);MSB3277
+    </MSBuildWarningsAsMessages>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\.editorconfig" Link=".editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+	<PackageReference Include="BepInEx.Core" Version="5.*" />
+	<PackageReference Include="RiskOfRain2.GameLibs" Version="*-*" />
+	<PackageReference Include="UnityEngine.Modules" Version="2021.3.45" />
+	<PackageReference Include="MMHOOK.RoR2" Version="*">
+		<NoWarn>NU1701</NoWarn>
+	</PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+	<PackageReference Include="R2API.Addressables" Version="*" />
+	<PackageReference Include="R2API.ArtifactCode" Version="*" />
+	<PackageReference Include="R2API.CommandHelper" Version="*" />
+	<PackageReference Include="R2API.ContentManagement" Version="*" />
+	<PackageReference Include="R2API.Core" Version="*" />
+	<PackageReference Include="R2API.DamageType" Version="*" />
+	<PackageReference Include="R2API.Deployable" Version="*" />
+	<PackageReference Include="R2API.Difficulty" Version="*" />
+	<PackageReference Include="R2API.Director" Version="*" />
+	<PackageReference Include="R2API.Dot" Version="*" />
+	<PackageReference Include="R2API.Elites" Version="*" />
+	<PackageReference Include="R2API.Items" Version="*" />
+	<PackageReference Include="R2API.Language" Version="*" />
+	<PackageReference Include="R2API.Loadout" Version="*" />
+	<PackageReference Include="R2API.LobbyConfig" Version="*" />
+	<PackageReference Include="R2API.Networking" Version="*" />
+	<PackageReference Include="R2API.Orb" Version="*" />
+	<PackageReference Include="R2API.Prefab" Version="*" />
+	<PackageReference Include="R2API.RecalculateStats" Version="*" />
+	<PackageReference Include="R2API.SceneAsset" Version="*" />
+	<PackageReference Include="R2API.Skins" Version="*" />
+	<PackageReference Include="R2API.Sound" Version="*" />
+	<PackageReference Include="R2API.TempVisualEffect" Version="*" />
+	<PackageReference Include="R2API.Unlockable" Version="*" />
+	<PackageReference Include="Rune580.Mods.RiskOfRain2.RiskOfOptions" Version="*" />
+  </ItemGroup>
+
+</Project>

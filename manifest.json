@@ -1,0 +1,17 @@
+{
+  "name": "RealerMysticsRisky2Utils",
+  "version_number": "2.0.23",
+  "website_url": "https://github.com/prodzpod/MysticsRisky2Utils",
+  "description": "Library for TheMysticSword's mods",
+  "dependencies": [
+    "bbepis-BepInExPack-5.4.2121",
+    "RiskofThunder-HookGenPatcher-1.2.9",
+    "RiskofThunder-R2API_Core-5.3.0",
+    "RiskofThunder-R2API_Elites-1.1.0",
+    "RiskofThunder-R2API_Networking-1.0.4",
+    "RiskofThunder-R2API_Language-1.1.0",
+    "RiskofThunder-R2API_Prefab-1.1.1",
+    "RiskofThunder-R2API_RecalculateStats-1.6.5",
+    "RiskofThunder-R2API_Sound-1.0.3"
+  ]
+}
